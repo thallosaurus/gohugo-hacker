@@ -1,0 +1,16 @@
+$foreground-color: #07f7ee;
+$background-color: #01020b;
+
+$font: "IBMVGA8", monospace;
+
+$dark: true;
+
+@font-face {
+    font-family: "IBMVGA8";
+    font-style: normal;
+    src: url("../fonts/ibmvga8.woff") format('woff')
+}
+
+@import "../chroma/solarized-light.scss";
+
+@import "_base.scss";
